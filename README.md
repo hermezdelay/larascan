@@ -28,3 +28,5 @@ you can include this script to your HTML pages to remotely call asprise services
 Or you can even host services in your own PC/Server, you have to use Bower in this case, click link bellow to know more:
 https://asprise.com/scan/scannerjs/docs/html/scannerjs-javascript-guide.html#include-scanner-js
 
+next step is to copy/paste demo-2.html in your laravel project, and make changes you whant, that's all.
+
