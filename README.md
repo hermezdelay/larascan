@@ -4,6 +4,8 @@ To run project you have to open laravel server and bootstrap server:
 $ php artisan serv
 $ npm run dev
 
+Laravel Server is running on [http://127.0.0.1:8000]
+Vite is runing on : http://localhost:5173/
 
 
 commands i've write to install bootstrap on laravel:
