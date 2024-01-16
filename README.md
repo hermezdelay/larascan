@@ -1,5 +1,8 @@
 # larascan
 scan documents, extract data from PDF and images inserting them to database or via API's
+To run project you have to open laravel server and bootstrap server:
+$ php artisan serv
+$ npm run dev
 
 
 
