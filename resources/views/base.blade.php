@@ -221,7 +221,18 @@
                 <div class="col-sm-3 container-fluid" style=" border: 1px solid hsl(0, 0%, 1%)">
                     
                     <p class="p">Systhen Capture Software </p>
-                
+
+                    <!-- à gauche j'affiche le menu déroulant static
+                             __________________________________
+                            |                                  |
+                            ||=====||                          |
+                            ||     ||                          |
+                            || HERE||                          |
+                            ||     ||                          |
+                            ||=====||                          |
+                            |__________________________________|                            
+                            
+                        -->
 
                     <section class="mt-5" >
                      <div class="container">
@@ -301,55 +312,56 @@
                 </div>
 
 
-
                 <div class="col-sm-9" style="border: 1px solid hsl(0, 0%, 1%)">
-                    <p> Capture images in browsers</p>
-                  <div class="row">
-                    <div class="col-8 bg-white p-4" >
-                        .col-8
-
-                        <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-8 bg-white p-4" style=" border: 1px solid hsl(0, 0%, 1%)">
-                                col-8-8
-                                <div id="dvs-canvas-container-lret7vn64a" class="dvs-canvas-container" style="left: 0px; top: 0px;">
-                                    <img src="facture2.png" class="rounded" alt="grande facture" style=" border: 1px solid hsl(0, 0%, 1%)">
-                                    <canvas height="500px" style=" cursor: crosshair; background: rgb(255, 255, 255);">
-                                        
-                                    </canvas>
-                                </div>
-                                
-                              </div>
-                              <div class="col-4 bg-white p-1" style=" border: 1px solid hsl(0, 0%, 1%)">
-                                col-8-4
-                                <div id="dvs-canvas-container-lret7vn64a" class="dvs-canvas-container" style="border: 1px solid hsl(0, 0%, 1%); left: 0px; top: 0px;">
-                                    
-                                    <img src="facture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
-                                    <img src="facture2.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
-                                    <canvas width="120px" height="400px" style=" cursor: crosshair; background: rgb(255, 255, 255);">
-                                        
-                                    </canvas>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-
-                    </div>
-
-                    <div class="col-4 bg-white p-1" style="border: 1px solid hsl(0, 0%, 1%) ">.col-4
-
-                        <!-- dans la partie la plus a droite j'integre mon scanner.js --> 
-                            <div class="d-grid">
-                                
-                                <div class="container">
-                                    @yield('content')
-                                </div>
-                            </div>
+                    
+                     <!-- au milieu de la page et a droite j'affiche les images PDF scannés 
+                             __________________________________
+                            |                                  |
+                            |       ||=============||=======|  |
+                            |       ||             ||       |  |
+                            |       ||    HERE     ||       |  |
+                            |       ||             ||       |  |
+                            |       ||=============||=======|  |
+                            |__________________________________|                            
                             
+                        -->
+                    <p> Capture images in browsers</p>
+                    <div class="row">
+                        <div class="col-8 bg-white p-4" >
 
+                            <!-- au milieu de la page j'affiche les images PDF scannés -->
+                            <!-- au milieu de la page et a droite j'affiche les images PDF scannés 
+                             __________________________________
+                            |                                  |
+                            |        |=============||=======|| |
+                            |        |             ||       || |
+                            |        |             ||  HERE || |
+                            |        |             ||       || |
+                            |        |=============||=======|| |
+                            |__________________________________|                            
+                            
+                        -->
+                            <div class="pdf-show">
+                                @yield('pdf-show')
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-4 bg-white p-1" style="border: 1px solid hsl(0, 0%, 1%) ">.col-4
+
+                            <!-- dans la partie la plus a droite j'integre mon scanner.js --> 
+                                <div class="d-grid">
+                                    
+                                    <div class="container">
+                                        @yield('content')
+                                    </div>
+                                </div>
+                                
+
+                        </div>
                     </div>
-                  </div>
                 </div>
 
 
