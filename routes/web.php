@@ -27,6 +27,9 @@ Route::get('/extraire', function () {
 });
 
 
+Route::get('/profile', function () {
+    return view('profile');
+});
 
 
 Auth::routes();

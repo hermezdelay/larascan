@@ -16,11 +16,11 @@
       </div>
       <div class="col-4 bg-white p-1" style=" border: 1px solid hsl(0, 0%, 1%)">
         col-8-4
-        <div id="images">Uploaded Images will apear here</div>
         <div id="dvs-canvas-container-lret7vn64a" class="dvs-canvas-container" style="border: 1px solid hsl(0, 0%, 1%); left: 0px; top: 0px;">
             
             <img src="facture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
             <img src="facture2.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
+            <div id="images" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">Uploaded Images will apear here</div>
             <canvas width="120px" height="400px" style=" cursor: crosshair; background: rgb(255, 255, 255);">
                 
             </canvas>
@@ -40,13 +40,13 @@
 
                         
                         <div class="d-grid">
-                            <button type="button" class="btn btn-primary btn-block" onclick="scanToJpg();" style="font-size: 25px;">SCAN</button>
+                            <button type="button" class="btn btn-primary btn-block" onclick="scanToJpg();" style="font-size: 25px;" data-bs-toggle="tooltip" title="Hooray!">SCAN</button>
                         </div>
                     
                         <!-- Previous lines are same as demo-01, below is new addition to demo-02 -->
                     
                         <form id="form1" action="https://asprise.com/scan/applet/upload.php?action=dump" method="POST" enctype="multipart/form-data" target="_blank" >
-                            <input type="text" id="sample-field" name="sample-field" value="Send to the server" style="border: 2px solid;"/>
+                            <input type="text" id="sample-field" name="sample-field" value=" Project {{ date('d-m-Y') }}" style="border: 2px solid;"/>
                             <input type="button" value="Save in the server" class="btn btn-secondary btn-block" onclick="submitFormWithScannedImages();">
                             
                         </form>

@@ -165,6 +165,14 @@
                     }
 
                 </script>
+                
+                <!-- script de bootstrap 5 pour l'effet Hover Tooltip du  boutton scan  -->
+                <script>
+                    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                    return new bootstrap.Tooltip(tooltipTriggerEl)
+                    })
+                </script>
 
     <!-- j'ajoute ici le style de scanner.js -->
                 <style>
@@ -236,14 +244,15 @@
 
                     <section class="mt-5" >
                      <div class="container">
-                        <div class="row">
+                        <img src="folder_cascade.png" alt="" style="border: 1px solid hsl(0, 0%, 1%)">
+                        <div class="row" style="border: 1px solid hsl(0, 0%, 1%)">
                             <div class="col-md-6 offset-md-3" style=" margin-left: 2px;" >
                                 <div class="accordion accordion-flush" id="faqlist" style="width: 200px; ">
                                     <div class="accordion-item" >
                                         <h2 class="accordion-header" >
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                            Document scanning
-                                            </button>
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                                Document scanning
+                                                </button>
                                         </h2>
                                         <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                             <div class="accordion-body">
