@@ -122,19 +122,6 @@
 
         <div class="">
 
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
-                    @auth
-                        <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
 
             <div >
                 
@@ -296,9 +283,15 @@
                                     </li>
                                 </ul>
                                 
+
+
+                                <div class="d-grid">
+                                    <button type="button" class="btn btn-primary btn-block">begin Scanning</button>
+                                </div>
+                                </br>
                                 <button class="btn btn-primary" disabled>
                                     <span class="spinner-grow spinner-grow-sm"></span>
-                                    begin Scanning...
+                                    Open Scrutator...
                                 </button>
                             </div>
 
