@@ -91,9 +91,9 @@
 
 
           <!-- j'ajoute ici le script de scanner.js -->
-        <script src="https://cdn.asprise.com/scannerjs/scanner.js" type="text/javascript"></script>
+            <script src="https://cdn.asprise.com/scannerjs/scanner.js" type="text/javascript"></script>
 
-        <script>
+                <script>
                     //
                     // Please read scanner.js developer's guide at: http://asprise.com/document-scan-upload-image-browser/ie-chrome-firefox-scanner-docs.html
                     //
@@ -174,7 +174,7 @@
                     })
                 </script>
 
-    <!-- j'ajoute ici le style de scanner.js -->
+            <!-- j'ajoute ici le style de scanner.js -->
                 <style>
                     img.scanned {
                         height: 200px; /** Sets the display size */
@@ -192,6 +192,11 @@
                             .asprise-footer a {  text-decoration: none; color: #999; }
                             .asprise-footer a:hover {  padding-bottom: 2px; border-bottom: solid 1px #9cd; color: #06c; }
                         </style>
+
+
+
+                <!-- from lordicon: les icones du folder et pdf -->
+                <script src="https://cdn.lordicon.com/lordicon.js"></script>
         
     </head>
     <body class="antialiased">
@@ -224,12 +229,10 @@
                 </div>
             </nav>
 
-            <div class="row">
+            <div class="row" >
 
-                <div class="col-sm-3 container-fluid" style=" border: 1px solid hsl(0, 0%, 1%)">
+    <div class="col-sm-3 container-fluid shadow p-4 mb-4 bg-white">
                     
-                    <p class="p">Systhen Capture Software </p>
-
                     <!-- à gauche j'affiche le menu déroulant static
                              __________________________________
                             |                                  |
@@ -242,86 +245,149 @@
                             
                         -->
 
-                    <section class="mt-5" >
-                     <div class="container">
-                        <img src="folder_cascade.png" alt="" style="border: 1px solid hsl(0, 0%, 1%)">
-                        <div class="row" style="border: 1px solid hsl(0, 0%, 1%)">
-                            <div class="col-md-6 offset-md-3" style=" margin-left: 2px;" >
-                                <div class="accordion accordion-flush" id="faqlist" style="width: 200px; ">
-                                    <div class="accordion-item" >
-                                        <h2 class="accordion-header" >
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                                Document scanning
-                                                </button>
-                                        </h2>
-                                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                            <div class="accordion-body">
-                                                This online demo application shows how to use the Dynamic Web TWAIN SDK to control any TWAIN compatible scanners in a web page.
-                                            </div>
-                                        </div>
-                                    </div>
+        <section >
+            <div class="container shadow-sm mb-4 bg-white" >
+
+                        
+                <!-- from lordicon  -->
                 
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                            Capture from Scanner
-                                            </button>
-                                        </h2>
-                                        <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                            <div class="accordion-body">
-                                                This online demo application shows how to use the Dynamsoft SDK
-                                                in a web page to capture images, edit and then upload to web servers.
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                            Read Barecode from scanners
-                                            </button>
-                                        </h2>
-                                        <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                            <div class="accordion-body">
-                                                The online demo allows fast and robust barcode recognition from scanned documents
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                                            Where does it come from?
-                                            </button>
-                                        </h2>
-                                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                            <div class="accordion-body">
-                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                                            Where does it come from?
-                                            </button>
-                                        </h2>
-                                        <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                            <div class="accordion-body">
-                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="row">
+                    <div class="col-sm-2">                       
+                        <lord-icon
+                            src="https://cdn.lordicon.com/veoexymv.json"
+                            trigger="hover"
+                            style="width:40px;height:40px;">
+                        </lord-icon>
+                    </div>
+                    <div class="col-sm-9 " style="margin-left: 10px">
+                         Document Office
+                    </div>
+                </div>
+
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-sm-2" style="margin-left: 15px">                       
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/lsrcesku.json"
+                                    trigger="hover"
+                                    style="width:25px;height:25px;">
+                                </lord-icon>
+                            </div>
+                            <div class="col-sm-6" style="font-size: 70%">
+                                Doc 1.pdf
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-sm-2" style="margin-left: 15px">                       
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/lsrcesku.json"
+                                    trigger="hover"
+                                    style="width:25px;height:25px;">
+                                </lord-icon>
+                            </div>
+                            <div class="col-sm-6" style="font-size: 70%">
+                                Doc 2.pdf
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-sm-2" style="margin-left: 15px">                       
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/lsrcesku.json"
+                                    trigger="hover"
+                                    style="width:25px;height:25px;">
+                                </lord-icon>
+                            </div>
+                            <div class="col-sm-6" style="font-size: 70%">
+                                Doc 3.pdf
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>                
+            </div>
+
+            <div class="row ">
+                <div class="col-md-6 offset-md-3" style=" margin-left: 2px;" >
+                    <div class="accordion accordion-flush" id="faqlist" style="width: 200px; ">
+                        <div class="accordion-item" >
+                            <h2 class="accordion-header" >
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                    Type of Document
+                                    </button>
+                            </h2>
+                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    This online demo application shows how to use the Dynamic Web TWAIN SDK to control any TWAIN compatible scanners in a web page.
                                 </div>
                             </div>
                         </div>
-                     </div>
-                    </section>
+    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                Profile
+                                </button>
+                            </h2>
+                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    This online demo application shows how to use the Dynamsoft SDK
+                                    in a web page to capture images, edit and then upload to web servers.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                    Read Barecode from scanners
+                                </button>
+                            </h2>
+                            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                History of scanning
+                                </button>
+                            </h2>
+                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    The online demo allows fast and robust barcode recognition from scanned documents
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                    Capture from Scanner
+                                </button>
+                            </h2>
+                            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
+            </div>
+        </section>
+    </div>
 
 
-                <div class="col-sm-9" style="border: 1px solid hsl(0, 0%, 1%)">
+                <div class="col-sm-9">
                     
                      <!-- au milieu de la page et a droite j'affiche les images PDF scannés 
                              __________________________________
@@ -334,7 +400,6 @@
                             |__________________________________|                            
                             
                         -->
-                    <p> Capture images in browsers</p>
                     <div class="row">
                         <div class="col-8 bg-white p-4" >
 
@@ -358,7 +423,7 @@
 
 
 
-                        <div class="col-4 bg-white p-1" style="border: 1px solid hsl(0, 0%, 1%) ">.col-4
+                        <div class="col-4 bg-white p-1" >
 
                             <!-- dans la partie la plus a droite j'integre mon scanner.js --> 
                                 <div class="d-grid">
