@@ -30,3 +30,5 @@ https://asprise.com/scan/scannerjs/docs/html/scannerjs-javascript-guide.html#inc
 
 next step is to copy/paste demo-2.html in your laravel project, and make changes you whant, that's all.
 
+/**************************************************************************************/
+I use animated folder and PDF icons from "lordicon.com"

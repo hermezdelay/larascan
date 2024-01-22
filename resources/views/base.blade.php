@@ -83,9 +83,10 @@
                         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
                         
                         <style type="text/css">
-                            i{
+                           /* i{
                                 font-size: 50px;
                             }
+                            */
                         </style>
 
 
@@ -193,8 +194,6 @@
                             .asprise-footer a:hover {  padding-bottom: 2px; border-bottom: solid 1px #9cd; color: #06c; }
                         </style>
 
-
-
                 <!-- from lordicon: les icones du folder et pdf -->
                 <script src="https://cdn.lordicon.com/lordicon.js"></script>
         
@@ -202,7 +201,7 @@
     <body class="antialiased">
 
         
-            <!--- la bare de navigation -->
+            <!--- la bare de navigation en haut  -->
             <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="javascript:void(0)">Systhen Logo</a>
@@ -229,9 +228,9 @@
                 </div>
             </nav>
 
-            <div class="row" >
+<div class="row" >
 
-    <div class="col-sm-3 container-fluid shadow p-4 mb-4 bg-white">
+    <div class="col-sm-2 container-fluid shadow p-4 mb-4 bg-white"  style="     padding: 0.2rem !important; width: 20%;  margin-left: 0.8rem; margin-right: 0.5rem; ">
                     
                     <!-- à gauche j'affiche le menu déroulant static
                              __________________________________
@@ -244,188 +243,56 @@
                             |__________________________________|                            
                             
                         -->
-
-        <section >
-            <div class="container shadow-sm mb-4 bg-white" >
-
-                        
-                <!-- from lordicon  -->
-                
-                <div class="row">
-                    <div class="col-sm-2">                       
-                        <lord-icon
-                            src="https://cdn.lordicon.com/veoexymv.json"
-                            trigger="hover"
-                            style="width:40px;height:40px;">
-                        </lord-icon>
-                    </div>
-                    <div class="col-sm-9 " style="margin-left: 10px">
-                         Document Office
-                    </div>
-                </div>
-
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row">
-                            <div class="col-sm-2" style="margin-left: 15px">                       
-                                <lord-icon
-                                    src="https://cdn.lordicon.com/lsrcesku.json"
-                                    trigger="hover"
-                                    style="width:25px;height:25px;">
-                                </lord-icon>
-                            </div>
-                            <div class="col-sm-6" style="font-size: 70%">
-                                Doc 1.pdf
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row">
-                            <div class="col-sm-2" style="margin-left: 15px">                       
-                                <lord-icon
-                                    src="https://cdn.lordicon.com/lsrcesku.json"
-                                    trigger="hover"
-                                    style="width:25px;height:25px;">
-                                </lord-icon>
-                            </div>
-                            <div class="col-sm-6" style="font-size: 70%">
-                                Doc 2.pdf
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row">
-                            <div class="col-sm-2" style="margin-left: 15px">                       
-                                <lord-icon
-                                    src="https://cdn.lordicon.com/lsrcesku.json"
-                                    trigger="hover"
-                                    style="width:25px;height:25px;">
-                                </lord-icon>
-                            </div>
-                            <div class="col-sm-6" style="font-size: 70%">
-                                Doc 3.pdf
-                            </div>
-                        </div>
-                    </a>
-                    
-                </div>                
-            </div>
-
-            <div class="row ">
-                <div class="col-md-6 offset-md-3" style=" margin-left: 2px;" >
-                    <div class="accordion accordion-flush" id="faqlist" style="width: 200px; ">
-                        <div class="accordion-item" >
-                            <h2 class="accordion-header" >
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                    Type of Document
-                                    </button>
-                            </h2>
-                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    This online demo application shows how to use the Dynamic Web TWAIN SDK to control any TWAIN compatible scanners in a web page.
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                Profile
-                                </button>
-                            </h2>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    This online demo application shows how to use the Dynamsoft SDK
-                                    in a web page to capture images, edit and then upload to web servers.
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                                    Read Barecode from scanners
-                                </button>
-                            </h2>
-                            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                History of scanning
-                                </button>
-                            </h2>
-                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    The online demo allows fast and robust barcode recognition from scanned documents
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                                    Capture from Scanner
-                                </button>
-                            </h2>
-                            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-        </section>
+            <section >                    
+                <div class="scan">
+                        @yield('scan')
+                 </div>                       
+            </section>
     </div>
 
 
-                <div class="col-sm-9">
-                    
-                     <!-- au milieu de la page et a droite j'affiche les images PDF scannés 
-                             __________________________________
-                            |                                  |
-                            |       ||=============||=======|  |
-                            |       ||             ||       |  |
-                            |       ||    HERE     ||       |  |
-                            |       ||             ||       |  |
-                            |       ||=============||=======|  |
-                            |__________________________________|                            
-                            
-                        -->
-                    <div class="row">
-                        <div class="col-8 bg-white p-4" >
+        <div class="col-sm-9" >                    
+                     
+                    <div class="row" >  
+                        
+                                <!-- au milieu de la page et a droite j'affiche les images PDF scannés 
+                                            __________________________________
+                                            |                                  |
+                                            |       ||=============||=======|  |
+                                            |       ||             ||       |  |
+                                            |       ||    HERE     ||       |  |
+                                            |       ||             ||       |  |
+                                            |       ||=============||=======|  |
+                                            |__________________________________|                                                  
+                                -->
 
-                            <!-- au milieu de la page j'affiche les images PDF scannés -->
-                            <!-- au milieu de la page et a droite j'affiche les images PDF scannés 
-                             __________________________________
+                        <div class="col-7 bg-white p-4" style=" padding: 0.2rem !important; width: 50%;">
+                                <!-- Ici j'affiche les images scannés en grand format -->
+                            <div class="pdf-show">
+                                @yield('pdf-show')
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-sm-2 p-3 bg-white" style=" padding: 0.2rem !important; width: 10%;">
+                            <!-- Ici j'affiche les images en miniatures -->
+                        <div class="pdf-show">
+                            @yield('thumbnails')
+                        </div>
+                        </div>
+
+                        <div class="col-5 bg-white p-1" style=" padding: 0.2rem !important; width: 40%;">
+
+                            <!-- dans la partie la plus a droite
+                            __________________________________
                             |                                  |
                             |        |=============||=======|| |
                             |        |             ||       || |
                             |        |             ||  HERE || |
                             |        |             ||       || |
                             |        |=============||=======|| |
-                            |__________________________________|                            
-                            
-                        -->
-                            <div class="pdf-show">
-                                @yield('pdf-show')
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="col-4 bg-white p-1" >
-
-                            <!-- dans la partie la plus a droite j'integre mon scanner.js --> 
+                            |__________________________________|     
+                            --> 
                                 <div class="d-grid">
                                     
                                     <div class="container">
@@ -436,11 +303,11 @@
 
                         </div>
                     </div>
-                </div>
+        </div>
 
 
  
-            </div>
+        
 
 
         
