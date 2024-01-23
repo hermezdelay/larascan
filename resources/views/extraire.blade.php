@@ -147,7 +147,7 @@
                   </div>
 
                   <div class="col-md-6 offset-md-3" style=" margin-left: 2px;" >
-                          <div class="accordion accordion-flush" id="faqlist" style="width: 220%; ">
+                        <div class="accordion accordion-flush" id="faqlist" style="width: 220%; ">
                                   <div class="accordion-item" >
                                       <h2 class="accordion-header" >
                                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
@@ -189,7 +189,7 @@
                                   </div>
 
                         </div>
-                    </div>
+                  </div>
           </div>
 
 @endsection
@@ -198,21 +198,21 @@
 @section('thumbnails')
 
 
-<div class="col-4 bg-white shadow" style=" width: 99%;">
+    <div class="col-4 bg-white shadow" style=" width: 99%;">
 
-  <div class="row">
-    <div class="col">
-      <img src="facture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
-      <img src="systhen_capture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
-      <img src="facture2.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
-    </div>
+          <div class="row">
+            <div class="col">
+              <img src="facture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
+              <img src="systhen_capture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
+              <img src="facture2.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
+            </div>
 
-    <div class="col">
-      <div id="images" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">Uploaded Images will apear here</div>
-    </div>
-    
-  </div>
-</div> 
+            <div class="col">
+              <div id="images" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">Uploaded Images will apear here</div>
+            </div>
+            
+          </div>
+    </div> 
 
 @endsection
 

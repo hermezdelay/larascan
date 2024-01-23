@@ -1,0 +1,17 @@
+
+img.scanned {
+    height: 200px; /** Sets the display size */
+    margin-right: 12px;
+}
+
+div#images {
+    margin-top: 20px;
+}
+
+
+/*  HELP_LINKS_START help links at the bottom */
+.asprise-footer, .asprise-footer a:visited { font-family: Arial, Helvetica, sans-serif; color: #999; font-size: 13px; }
+.asprise-footer a {  text-decoration: none; color: #999; }
+.asprise-footer a:hover {  padding-bottom: 2px; border-bottom: solid 1px #9cd; color: #06c; }
+
+
