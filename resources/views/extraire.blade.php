@@ -178,7 +178,7 @@
                                   <div class="accordion-item">
                                       <h2 class="accordion-header">
                                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                          History of scanning
+                                          Preferences
                                           </button>
                                       </h2>
                                       <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -325,14 +325,14 @@
           <button type="button" class="btn btn-secondary btn-block" onclick="alert('document pas encore prét');" style="font-size: 25px;" data-bs-toggle="tooltip"> Save</button>
         </div>
           <div>
-            <label for="email">Projet Name :</label>
-            <input type="text" class="form-control" id="text" placeholder="Name" name="text">
+            <label for="email">Document Name :</label>
+            <input type="text" class="form-control" id="name" placeholder="Name" name="name">
           </div>
           
           <div>            
-            <label for="email">Language :</label>
+            <label for="language">Language :</label>
             <select class="form-select">
-              <option>Frensh</option>
+              <option>French</option>
               <option>English</option>
               <option>Ababic</option>
               <option>Deutsch</option>
@@ -340,12 +340,16 @@
           </div>
           
           <div>
-            <label for="email">Facture Number :</label>
-            <input type="text" class="form-control" id="text" placeholder="Number" name="text">
+            <label for="facture">Facture Number :</label>
+            <input type="text" class="form-control" id="facture_number" placeholder="Number" name="facture_number">
           </div>
           <div>
-            <label for="email">Value :</label>
-            <input type="text" class="form-control" id="text" placeholder=" $" name="text">
+            <label for="size">Size:</label>
+            <input type="text" class="form-control" id="size" placeholder="Octet" name="size">
+          </div>
+          <div>
+            <label for="value">Value :</label>
+            <input type="text" class="form-control" id="value" placeholder=" $" name="value">
           </div>
         
             
