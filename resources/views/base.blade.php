@@ -12,10 +12,21 @@
         
                         <!-- j'ajoute ici le style de tailwindcss -->                      
                         <link rel="stylesheet" href="{{ asset('css/tailwindcss.css') }}" type="text/css">
-                       <!-- j'ajoute ici le style de bootstrap -->                      
+                       <!-- j'ajoute ici le style de bootstrap 5 -->                      
                         <link rel="stylesheet" href="{{ asset('/css/bootstrap_util.css') }}">
                         <!-- j'ajoute ici le style de scanner.js -->                      
                         <link rel="stylesheet" href="{{ asset('css/asperise_scanner.css') }}">
+
+            <!-- j'ajoute ici le script de scanner.js -->
+            <script src="https://cdn.asprise.com/scannerjs/scanner.js" type="text/javascript"></script>
+            <script src="{{ asset('js/asperise_scanner.js')}}" type="text/javascript"></script>
+ 
+            <!-- script de bootstrap 5 pour l'effet Hover Tooltip, ...etc -->
+            <script src="{{ asset('js/bootstrap_util.js')}}" type="text/javascript"></script>
+
+            <!-- from lordicon: les icones du folder et pdf -->
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
 
 
                 <!-- Vite scripts -->        
@@ -28,27 +39,14 @@
                         <link rel="dns-prefetch" href="//fonts.bunny.net">
                         <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
                         
-                        <!-- Scripts -->
+                        <!-- Scripts de vite -->
                         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-
-
-          <!-- j'ajoute ici le script de scanner.js -->
-            <script src="https://cdn.asprise.com/scannerjs/scanner.js" type="text/javascript"></script>
-            <script src="{{ asset('js/asperise_scanner.js')}}" type="text/javascript"></script>
-
-                
-                <!-- script de bootstrap 5 pour l'effet Hover Tooltip, ...etc -->
-                <script src="{{ asset('js/bootstrap_util.js')}}" type="text/javascript"></script>
-
-
-                <!-- from lordicon: les icones du folder et pdf -->
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
         
     </head>
     <body class="antialiased">
 
         
-            <!--- la bare de navigation en haut  -->
+        <!--- la bare de navigation en haut  -->
             <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="javascript:void(0)">Systhen Logo</a>
@@ -77,7 +75,7 @@
 
         <div class="row" >
 
-                <div class="col-sm-2 container-fluid shadow p-4 mb-4 bg-white"  style="     padding: 0.2rem !important; width: 20%;  margin-left: 0.8rem; margin-right: 0.5rem; ">
+                <div class="col-sm-2 container-fluid shadow p-4 mb-4 bg-white"  style=" padding: 0.2rem !important; width: 20%;  margin-left: 0.8rem; margin-right: 0.5rem; ">
                                 
                                 <!-- à gauche j'affiche le menu déroulant static
                                         __________________________________
@@ -147,9 +145,6 @@
                             </div>
                 </div>  
         </div> 
-
-
         
-
     </body>
 </html>
