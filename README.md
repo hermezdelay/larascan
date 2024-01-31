@@ -35,3 +35,4 @@ I use animated folder and PDF icons from "lordicon.com"
 /**************************************************************************************/
 I'll add tesseract OCR to the project
 i don't it supports arabic but let's try now
+for your information tesseract ocr is supported by google
