@@ -202,8 +202,8 @@
 
           <div class="row">
             <div class="col">
-              <img src="facture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
-              <img src="systhen_capture.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
+              <img src="facture_3.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
+              <img src="facture_4.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
               <img src="facture2.png" class="img-thumbnail" alt="Petite facture" style="padding-bottom: 15px; border: 1px solid hsl(0, 0%, 1%)">
             </div>
 
@@ -264,7 +264,7 @@
 
             <!-- ici j'affiche le PDF --> 
             <div id="dvs-canvas-container-lret7vn64a" class="dvs-canvas-container" style="left: 0px; top: 0px;">
-                <img src="systhen_capture.png" class="rounded" alt="grande facture" style="left: 0px; top: 0px;border: 1px solid;" >
+                <img src="facture_4.png" class="rounded" alt="grande facture" style="left: 0px; top: 0px;border: 1px solid;" >
 
                   
                 <!-- <canvas height="500px" style=" cursor: crosshair; background: rgb(255, 255, 255);"> 
