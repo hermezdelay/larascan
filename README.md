@@ -34,3 +34,4 @@ next step is to copy/paste demo-2.html in your laravel project, and make changes
 I use animated folder and PDF icons from "lordicon.com"
 /**************************************************************************************/
 I'll add tesseract OCR to the project
+i don't it supports arabic but let's try now
