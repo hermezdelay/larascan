@@ -39,3 +39,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/upload',[App\Http\Controllers\HomeController::class,'index'])->name('upload');
+Route::post('/upload',[App\Http\Controllers\HomeController::class,'upload'])->name('upload');
